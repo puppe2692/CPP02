@@ -6,7 +6,7 @@
 /*   By: nwyseur <nwyseur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 15:31:16 by nwyseur           #+#    #+#             */
-/*   Updated: 2023/08/15 16:58:03 by nwyseur          ###   ########.fr       */
+/*   Updated: 2023/08/15 17:39:41 by nwyseur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,15 +33,15 @@ Point::~Point(void)
 	return;
 }
 
-const Fixed Point::getX(void)
+/* const Fixed Point::getX(void)
 {
 	return (this->_x.toFloat());
-}
+} */
 
-const Fixed Point::getY(void)
+/* const Fixed Point::getY(void)
 {
 	return (this->_y.toFloat());
-}
+} */
 
 float Point::vectorialproduct(const Point &a, const Point &b, const Point &c)
 {
